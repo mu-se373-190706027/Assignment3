@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="click_for_increase">Click for increase</string>
+    <string name="_0">0</string>
+    <string name="check_me_to_initialize">Check me to initialize</string>
+    <string name="todo">TODO</string>
+</resources>
