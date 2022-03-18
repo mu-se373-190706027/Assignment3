@@ -15,27 +15,26 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        
     }
 
-    fun increase(view : View){
+    fun increase(view : View){                                 //Method for increase when button clicked
         val textView = findViewById<TextView>(R.id.textView)
-        textView.setText(counter.toString());
-        counter++
+        textView.text = counter.toString()                     //Changing text file
+        counter++                                              //increase counter
     }
 
-    fun checked(view : View){
+    fun checked(view : View){                                  //Method for check whether check box is selected or not and allow for clicking button if it is checked
         val checkBox = findViewById<CheckBox>(R.id.checkBox)
-        if(checkBox.isChecked){
+        if(checkBox.isChecked){                                       //if check box is selected it will be true
             val imageView = findViewById<ImageView>(R.id.imageView)
             val button = findViewById<Button>(R.id.button)
-            button.isEnabled = true
-            imageView.setImageResource(R.color.teal_700)
+            button.isEnabled = true                                   //enabled button so it becomes clickable
+            imageView.setImageResource(R.color.teal_700)              //Change the color
         }else{
             val imageView = findViewById<ImageView>(R.id.imageView)
             val button = findViewById<Button>(R.id.button)
-            button.isEnabled = false
-            imageView.setImageResource(com.google.android.material.R.color.design_default_color_error)
+            button.isEnabled = false                                  //disabled button so it becomes can not clickable
+            imageView.setImageResource(com.google.android.material.R.color.design_default_color_error)  //Change the color back
         }
 
 
