@@ -9,4 +9,4 @@
 -Video of emulator:
 ![Watch the video](https://user-images.githubusercontent.com/101103934/159056526-b358ffa0-8fa2-4c29-a944-e36107b60241.mp4)
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://user-images.githubusercontent.com/101103934/159056526-b358ffa0-8fa2-4c29-a944-e36107b60241.mp4)
